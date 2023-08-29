@@ -1,0 +1,8 @@
+{
+  "extends": "../../tsconfig.shared.json",
+  "compilerOptions": {
+    "rootDirs": ["src", "scripts"],
+    "declarationDir": "dist-types"
+  },
+  "include": ["src/**/*", "scripts/**/*"]
+}

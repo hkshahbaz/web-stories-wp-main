@@ -1,0 +1,14 @@
+{
+  "extends": "../../tsconfig.shared.json",
+  "compilerOptions": {
+    "rootDir": "src",
+    "declarationDir": "dist-types"
+  },
+  "references": [
+    { "path": "../react" },
+    { "path": "../tracking" },
+    { "path": "../units" }
+  ],
+  "files": ["../../node_modules/jest-extended/types/index.d.ts"],
+  "include": ["src/**/*"]
+}
